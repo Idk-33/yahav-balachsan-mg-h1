@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cyber_User\\Desktop\\git-site\\yahav-balachsan-mg-h1\\home1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{679F913D-A259-4AAB-9E3F-55ACCEA367FC}|home1.vcxproj|C:\\Users\\Cyber_User\\Desktop\\git-site\\yahav-balachsan-mg-h1\\home1\\home1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{679F913D-A259-4AAB-9E3F-55ACCEA367FC}|home1.vcxproj|solutionrelative:home1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "home1.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Desktop\\git-site\\yahav-balachsan-mg-h1\\home1\\home1.cpp",
+              "RelativeDocumentMoniker": "home1.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Desktop\\git-site\\yahav-balachsan-mg-h1\\home1\\home1.cpp",
+              "RelativeToolTip": "home1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T22:36:04.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
