@@ -9,6 +9,7 @@ typedef struct Queue
 	unsigned int* queue;
 	unsigned int max;
 	unsigned int count;
+	unsigned int arr_starter;
 
 } Queue;
 
