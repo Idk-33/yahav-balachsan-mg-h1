@@ -8,4 +8,4 @@ typedef struct nm_stack
 
 nm_stack* add_nm(nm_stack* stack, int nm);
 
-nm_stack* delet(nm_stack* stack);
+void delet(nm_stack* stack);
