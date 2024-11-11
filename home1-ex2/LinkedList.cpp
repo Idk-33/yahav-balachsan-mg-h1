@@ -2,26 +2,26 @@
 #include "LinkedList.h"
 
 
-nm_stack* add_nm(nm_stack* stack, int nm)
+
+linked_liste* add_nm(linked_liste* hade, unsigned int nm)
 {
 
-	nm_stack* node = new nm_stack;
+	linked_liste* node = new linked_liste;
 	node->val = nm;
-	node->next = stack;
+	node->next = hade;
 
 	return node;
 	
 }
 
-void delet(nm_stack* stack)
+void delet(linked_liste* hade)
 {
 
-	nm_stack* node_to_delet = NULL;
+	linked_liste* node_to_delet = NULL;
 
-	node_to_delet = stack;
-	stack = stack->next;
+	node_to_delet = hade;
+	hade = hade->next;
 
 	delete(node_to_delet);
-
 
 }

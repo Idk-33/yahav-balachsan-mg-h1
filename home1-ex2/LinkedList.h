@@ -1,11 +1,18 @@
-typedef struct nm_stack
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
+
+
+typedef struct linked_liste
 {
 
 	unsigned int val;
-	struct nm_stack* next;
+	struct linked_liste* next;
 
-} nm_stack;
+} linked_liste;
 
-nm_stack* add_nm(nm_stack* stack, int nm);
+linked_liste* add_nm(linked_liste* hade, unsigned int nm);
 
-void delet(nm_stack* stack);
+void delet(linked_liste* hade);
+
+
+#endif
