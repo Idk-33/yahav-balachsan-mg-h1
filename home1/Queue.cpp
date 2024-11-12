@@ -4,7 +4,7 @@
 
 /*
 this Function initialize a queue with a specified capacity
-Input: pointer to a Queue structure, queue size
+Input: pointer to a Queue structure, unsigned int queue size
 Output: none
 */
 void initQueue(Queue* q, unsigned int size)
@@ -17,6 +17,11 @@ void initQueue(Queue* q, unsigned int size)
 
 }
 
+/*
+Function to clean up a queue
+Input: pointer to a Queue structure
+Output: none
+*/
 void cleanQueue(Queue* q)
 {
 
@@ -24,6 +29,11 @@ void cleanQueue(Queue* q)
 
 }
 
+/*
+Function to check if the queue is empty
+Input: pointer to a Queue structure
+Output: true if the queue is empty and false if not
+*/
 bool isEmpty(Queue* s)
 {
 
@@ -42,6 +52,11 @@ bool isEmpty(Queue* s)
 
 }
 
+/*
+Function to check if the queue is full
+Input: pointer to a Queue structure
+Output: true if the queue is full and false if not
+*/
 bool isFull(Queue* s)
 {
 
@@ -60,6 +75,11 @@ bool isFull(Queue* s)
 
 }
 
+/*
+Function to add a new element to the queue
+Input: pointer to a Queue structure, value to add
+Output: none
+*/
 void enqueue(Queue* q, unsigned int newValue)
 {
 
@@ -73,6 +93,11 @@ void enqueue(Queue* q, unsigned int newValue)
 
 }
 
+/*
+Function to remove an element from the queue
+Input: pointer to a Queue structure
+Output: the removed element, or -1 if the queue is empty
+*/
 int dequeue(Queue* q)
 {
 
@@ -87,6 +112,7 @@ int dequeue(Queue* q)
 	else
 	{
 
+		// Move arr_starter like a circle
 		nm_to_send = q->queue[q->arr_starter % q->max];
 		q->queue[(q->arr_starter % q->max)] = NULL;
 		q->arr_starter++;

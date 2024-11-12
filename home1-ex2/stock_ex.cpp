@@ -3,6 +3,11 @@
 #include "Utils.h"
 using namespace std;
 
+/*
+Function to initialize a stack
+Input: pointer to a Stack structure
+Output: none
+*/
 void initStack(Stack* s)
 {
 
@@ -10,6 +15,11 @@ void initStack(Stack* s)
 
 }
 
+/*
+Function to push a new element in to stack
+Input: pointer to a Stack structure, element to be pushed
+Output: none
+*/
 void push(Stack* s, unsigned int element)
 {
 
@@ -17,6 +27,11 @@ void push(Stack* s, unsigned int element)
 
 }
 
+/*
+Function to pop the top element from the stack
+Input: pointer to a Stack structure
+Output: the popped element, or -1 if the stack is empty
+*/
 int pop(Stack* s)
 {
 
@@ -39,6 +54,11 @@ int pop(Stack* s)
 
 }
 
+/*
+Function to deleting all nodes
+Input: pointer to a Stack structure
+Output: none
+*/
 void cleanStack(Stack* s)
 {
 	linked_liste* current = NULL;
@@ -58,6 +78,11 @@ void cleanStack(Stack* s)
 	s->haed = NULL;
 }
 
+/*
+Function to check if the stack is empty
+Input: pointer to a Stack structure
+Output: true if the stack is empty and false if not
+*/
 bool isEmpty(Stack* s)
 {
 
@@ -65,13 +90,23 @@ bool isEmpty(Stack* s)
 
 }
 
+/*
+Function to check if the stack is full
+Input: pointer to a Stack structure
+Output: false
+*/
 bool isFull(Stack* s)
 {
 
-	return false; // stack cnot be full
+	return false; // stack cannot be full
 
 }
 
+/*
+Function to reverse an array
+Input: pointer to an array of integers, size of the array
+Output: none
+*/
 void reverse(int* nums, unsigned int size)
 {
 
@@ -95,6 +130,11 @@ void reverse(int* nums, unsigned int size)
 
 }
 
+/*
+Function to create an array of 10 integers and reverse
+Input: none
+Output: pointer to the array
+*/
 int* reverse10()
 {
 
