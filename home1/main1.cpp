@@ -4,25 +4,31 @@
 using std::cout;
 using std::endl;
 
+/*
 void main()
 {
 
 	Queue* q = new Queue;
+	int i = 0;
 
-	initQueue(q, 5);
+	initQueue(q, 10);
 
 	cout << isEmpty(q) << endl;
 
-	for (int i = 0; i < 5; i++)
+	for (i = 0; i < 10; i++)
 	{
-		enqueue(q, (i + 1) * (i + 1));
+
+		enqueue(q, i);
+
 	}
 
 	cout << isFull(q) << endl;
 
 	while (!isEmpty(q))
 	{
+
 		cout << dequeue(q) << " ";
+
 	}
 
 	cleanQueue(q);
@@ -30,3 +36,4 @@ void main()
 	delete q;
 
 }
+*/

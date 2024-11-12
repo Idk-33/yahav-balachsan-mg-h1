@@ -30,9 +30,11 @@ int pop(Stack* s)
 	}
 	else
 	{
+
 		nm_to_send = s->haed->val;
-		delet(s->haed);
+		delet(&(s->haed));
 		return nm_to_send;
+
 	}
 
 }
@@ -48,7 +50,7 @@ void cleanStack(Stack* s)
 	{
 
 		next = current->next;
-		delet(current);
+		delet(&(current));
 		current = next;
 
 	}

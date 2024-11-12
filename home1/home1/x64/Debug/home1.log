@@ -1,3 +1,8 @@
-﻿  main1.cpp
-C:\Users\Cyber_User\Desktop\git-site\yahav-balachsan-mg-h1\home1\main1.cpp(7,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  Part1Tester.cpp
+C:\Users\Cyber_User\Desktop\git-site\yahav-balachsan-mg-h1\home1\Part1Tester.cpp(17,9): warning C4005: 'PURPLE': macro redefinition
+      C:\Users\Cyber_User\Desktop\git-site\yahav-balachsan-mg-h1\home1\Part1Tester.cpp(11,9):
+      see previous definition of 'PURPLE'
+  
+  main1.cpp
+  Generating Code...
   home1.vcxproj -> C:\Users\Cyber_User\Desktop\git-site\yahav-balachsan-mg-h1\home1\x64\Debug\home1.exe

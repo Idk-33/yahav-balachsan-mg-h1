@@ -12,7 +12,7 @@ typedef struct linked_liste
 
 linked_liste* add_nm(linked_liste* hade, unsigned int nm);
 
-void delet(linked_liste* hade);
+void delet(linked_liste** hade);
 
 
 #endif
